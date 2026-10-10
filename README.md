@@ -35,6 +35,3 @@ A passing check confirms only what that check covers. It does not establish that
 
 Please do not send client documents or personal data in a first message.
 
----
-
-<sub>Other experiments: [yt-heatmap-clipper](https://github.com/claudedclaude2-byte/yt-heatmap-clipper) and a fork of [MixCut-Skill](https://github.com/claudedclaude2-byte/MixCut-Skill) (video tooling).</sub>
