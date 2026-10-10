@@ -4,7 +4,7 @@
 
 I build **Records Intelligence**, a local-first tool that turns a small set of supplied PDFs into a **draft review pack**: every finding is linked to the passage and page it rests on, the original files and each revision are kept, unresolved gaps are listed, and the human review decision stays visible.
 
-**[Project overview](https://claudedclaude2-byte.github.io/)** · **[What exists today](https://claudedclaude2-byte.github.io/platform.html)** · **[Scope and limits](https://claudedclaude2-byte.github.io/trust.html)** · **[Contact](mailto:kimivacko@yahoo.com)**
+**[Project overview](https://claudedclaude2-byte.github.io/)** · **[What exists today](https://claudedclaude2-byte.github.io/platform.html)** · **[Public roadmap](https://github.com/claudedclaude2-byte/claudedclaude2-byte.github.io/blob/main/ROADMAP.md)** · **[Scope and limits](https://claudedclaude2-byte.github.io/trust.html)** · **[Contact](mailto:kimivacko@yahoo.com)**
 
 ## A small evaluation, on fictional documents first
 
@@ -23,15 +23,30 @@ The first conversation needs no client documents: ask to see the **fictional sam
 - **Built:** local components for records requests, evidence search, source provenance, reviewed redaction, and versioned dossiers with an independent offline verifier.
 - **Pilot:** the bounded PDF route above, in private validation on the builder's own Windows machine.
 - **Sample:** a fictional walkthrough kit is frozen, and its backup copy has been checked against the same checksums.
-- **Still open:** final integration of the pilot, installation on a clean machine, and a public runnable release. There is no hosted app, upload portal or public download, and no production use is offered.
+- **Still open:** integration of the latest packaging and startup fixes, installation on a clean machine, and a public runnable release. There is no hosted app, upload portal or public download, and no production use is offered.
 
 A passing check confirms only what that check covers. It does not establish that a source is true, authentic or complete, and nothing here is legal advice.
 
 **Stack:** Python · SQLite/FTS5 · local Flask/Jinja interfaces · Windows-first, offline. The implementation repository is private.
+
+## Where the project is going
+
+The ambition is a complete investigation workbench: records requests, documents, source-linked findings, corrections and follow-up questions in one inspectable trail.
+
+| Stage | Direction |
+| --- | --- |
+| **Built** | Records workflows, evidence search, provenance, reviewed redaction and versioned dossiers |
+| **Now** | Integrate the latest pilot packaging, startup and documentation fixes; refresh the fictional demo |
+| **Next** | Clean-machine installation, clearer first use and guided fictional partner evaluations |
+| **Planned** | Richer revision comparison, request-gap integration and source-change context |
+| **Longer term** | Partner integrations, shared review, an optional hosted workspace and deeper discovery |
+
+Later stages are intended or exploratory work, with no announced release dates. See the [full public roadmap](https://github.com/claudedclaude2-byte/claudedclaude2-byte.github.io/blob/main/ROADMAP.md) for the stages and milestones.
 
 ## Contact
 
 **Miroslav Kovac** · [kimivacko@yahoo.com](mailto:kimivacko@yahoo.com)
 
 Please do not send client documents or personal data in a first message.
+
 
