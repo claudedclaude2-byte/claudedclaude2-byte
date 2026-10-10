@@ -1,6 +1,6 @@
 ![Records Intelligence: supplied PDFs become a source-linked review pack.](assets/records-banner.svg)
 
-# Miroslav Kovac · Records Intelligence
+# Records Intelligence
 
 I build **Records Intelligence**, a local-first tool that turns a small set of supplied PDFs into a **draft review pack**: every finding is linked to the passage and page it rests on, the original files and each revision are kept, unresolved gaps are listed, and the human review decision stays visible.
 
