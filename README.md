@@ -8,22 +8,24 @@ I build **Records Intelligence**, a local-first tool that turns a small set of s
 
 ## A small evaluation, on fictional documents first
 
-| | Current pilot scope |
+| | Private Windows business-evaluation scope |
 | --- | --- |
-| **You supply** | One factual question, the statements to check and up to 6 born-digital PDFs (20 pages in total, at most 10 per document) |
+| **You supply** | One factual question, the statements to check and up to 25 born-digital PDFs (250 pages in total, at most 100 per PDF; 10 MiB per file and 64 MiB in total) |
 | **You get** | A draft review pack: exact and possible passage matches, missing records, differing values, a chronology of recognised dates, and links back to the source pages |
 | **Corrections** | One correction round. It produces revision 2 with a reason; revision 1 stays available for comparison |
 | **Review** | A reviewer records a decision and its basis. Changing the content makes that approval stale |
 | **Scans** | Optional, and only with individually reviewed transcripts |
+
+These bounds were measured with generated fictional inputs on the development machine; they do not establish customer accuracy, operator time, acceptance or release. The smaller demonstration profile remains 6 PDFs, 20 pages in total and 10 pages per PDF.
 
 The first conversation needs no client documents: ask to see the **fictional sample**, or describe **one preparation or checking step** you would like to make easier.
 
 ## Where it stands · October 2026
 
 - **Built:** local components for records requests, evidence search, source provenance, reviewed redaction, and versioned dossiers with an independent offline verifier.
-- **Pilot:** the bounded PDF route above, in private validation on the builder's own Windows machine.
+- **Pilot:** the private Windows build has a bundled-runtime installer, a fictional demonstration and measured business-evaluation capacity. Final verification remains open.
 - **Sample:** a fictional walkthrough kit is frozen, and its backup copy has been checked against the same checksums.
-- **Still open:** integration of the latest packaging and startup fixes, installation on a clean machine, and a public runnable release. There is no hosted app, upload portal or public download, and no production use is offered.
+- **Still open:** final Windows and Linux verification, acceptance, first use on a separate clean machine, distribution conditions and a public runnable release. There is no hosted app, upload portal or public download, and no production use is offered.
 
 A passing check confirms only what that check covers. It does not establish that a source is true, authentic or complete, and nothing here is legal advice.
 
@@ -36,7 +38,7 @@ The ambition is a complete investigation workbench: records requests, documents,
 | Stage | Direction |
 | --- | --- |
 | **Built** | Records workflows, evidence search, provenance, reviewed redaction and versioned dossiers |
-| **Now** | Integrate the latest pilot packaging, startup and documentation fixes; refresh the fictional demo |
+| **Now** | Finish verification of the private Windows installer and its evaluation package |
 | **Next** | Clean-machine installation, clearer first use and guided fictional partner evaluations |
 | **Planned** | Richer revision comparison, request-gap integration and source-change context |
 | **Longer term** | Partner integrations, shared review, an optional hosted workspace and deeper discovery |
@@ -45,7 +47,7 @@ Later stages are intended or exploratory work, with no announced release dates. 
 
 ## Contact
 
-**Miroslav Kovac** · [kimivacko@yahoo.com](mailto:kimivacko@yahoo.com)
+**Records Intelligence** · [kimivacko@yahoo.com](mailto:kimivacko@yahoo.com)
 
 Please do not send client documents or personal data in a first message.
 
